@@ -1,0 +1,15 @@
+<meta>
+    <!--
+        BW - stan nieprzytomnosci
+        @author: ansceniczny
+    -->
+
+    <script src="client/main.luac" type="client" />
+    <script src="server/main.lua" type="server" />
+
+    <!-- Pliki -->
+    <file src="assets/images/icon.png" type="client" />
+
+    <!-- Eksport -->
+    <export function="setPlayerBW" type="server" />
+</meta>

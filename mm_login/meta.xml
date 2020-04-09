@@ -1,0 +1,39 @@
+<meta>
+    <!-- scripts -->
+    <script src="client/_anim.luac" type="client" />
+    <script src="client/_music_library.lua" type="client" cache="false" />
+    <script src="client/_music.lua" type="client" cache="false" />
+    <script src="client/_music_lights.lua" type="client" cache="false" />
+
+    <script src="client/camera.luac" type="client" />
+    <script src="client/spawns.luac" type="client" />
+
+    <script src="client/prelogin_spawns.luac" type="client" />
+    <script src="client/login.luac" type="client" />
+
+    <!-- server -->
+    <script src="server/main.lua" type="server" />
+    
+    <!-- files -->
+    <file src="assets/images/background.png" type="client" />
+    <file src="assets/images/logo.png" type="client" />
+    <file src="assets/images/lights.png" type="client" />
+    <file src="assets/images/gui/edit_line.png" type="client" />
+    <file src="assets/images/gui/points/default.png" type="client" />
+    <file src="assets/images/gui/points/active.png" type="client" />
+    <file src="assets/images/gui/checkbox/default.png" type="client" />
+    <file src="assets/images/gui/checkbox/active.png" type="client" />
+    <file src="assets/images/gui/buttons/default.png" type="client" />
+    <file src="assets/images/gui/buttons/active.png" type="client" />
+    <file src="assets/images/gui/arrows/left.png" type="client" />
+    <file src="assets/images/gui/arrows/right.png" type="client" />
+    <file src="assets/images/spawn/map.png" type="client" />
+    <file src="assets/images/spawn/waypoint.png" type="client" />
+    <file src="assets/images/spawn/spawn_background.png" type="client" />
+    <file src="assets/images/spawn/spawn_window_mask.png" type="client" />
+    <file src="assets/images/icons/email.png" type="client" />
+    <file src="assets/images/icons/user.png" type="client" />
+    <file src="assets/images/icons/password.png" type="client" />
+    <file src="assets/fx/matrix.fx" type="client" />
+    <file src="assets/fx/mask.fx" type="client" />
+</meta>

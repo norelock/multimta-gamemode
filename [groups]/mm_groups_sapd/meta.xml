@@ -1,0 +1,10 @@
+<meta>
+    <!--
+        Frakcja SAPD
+        @author: ansceniczny
+    -->
+
+    <script src="client/radar.luac" type="client" />
+
+    <file src="assets/images/radar.png" type="client" />
+</meta>

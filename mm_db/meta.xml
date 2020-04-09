@@ -1,0 +1,14 @@
+<meta>
+    <!--
+        Baza danych
+        @author: ansceniczny
+    -->
+
+    <script src="shared/config.lua" type="shared" cache="false" />
+    <script src="server/database.lua" type="server" />
+
+    <!-- Eksporty -->
+    <export function="query" type="server" />
+    <export function="single" type="server" />
+    <export function="rows" type="server" />
+</meta>

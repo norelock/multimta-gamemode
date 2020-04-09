@@ -1,0 +1,6 @@
+<meta>
+    <script src="client/aj.luac" type="client" />
+    <script src="server/commands.lua" type="server" />
+
+    <file src="assets/images/icons/jail_icon.png" type="client" />
+</meta>

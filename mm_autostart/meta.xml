@@ -1,0 +1,8 @@
+<meta>
+    <!--
+        Autostart skryptów
+        @author: ansceniczny
+    -->
+
+    <script src="server/autostart.lua" type="server" />
+</meta>

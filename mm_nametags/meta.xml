@@ -1,0 +1,15 @@
+<meta>
+    <!--
+        Nametagi
+        @author: ansceniczny
+    -->
+
+    <script src="client/main.luac" type="client" />
+
+    <file src="assets/icons/afk.png" type="client" />
+    <file src="assets/icons/blood_icon.png" type="client" />
+    <file src="assets/icons/chat.png" type="client" />
+    <file src="assets/icons/premium.png" type="client" />
+
+    <export function="setNametagsEnabled" type="client" />
+</meta>

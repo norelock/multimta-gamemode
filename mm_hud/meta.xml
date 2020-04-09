@@ -1,0 +1,52 @@
+<meta>
+    <!--
+        HUD
+        @author: ansceniczny
+    -->
+
+    <!-- Skrypty -->
+    <script src="client/_anim.luac" type="client" />
+    <script src="client/notifications.luac" type="client" />
+    <script src="client/hud.luac" type="client" />
+    <script src="client/speedo.luac" type="client" />
+
+    <script src="server/notifications.lua" type="server" />
+
+    <!-- Pliki (images, sounds) -->
+    <file src="assets/images/notifications/background.png" type="client" />
+    <file src="assets/images/notifications/error.png" type="client" />
+    <file src="assets/images/notifications/info.png" type="client" />
+    <file src="assets/images/notifications/success.png" type="client" />
+
+    <file src="assets/images/background_circle.png" type="client" />
+    <file src="assets/images/heart.png" type="client" />
+    <file src="assets/images/progressbar.png" type="client" />
+    <file src="assets/images/progressbar_active.png" type="client" />
+    <file src="assets/images/progressbar_mask.png" type="client" />
+    <file src="assets/images/progressbar_active_mask.png" type="client" />
+
+    <file src="assets/images/speedo/bars.png" type="client" />
+	<file src="assets/images/speedo/numbers.png" type="client" />
+	<file src="assets/images/speedo/pointer.png" type="client" />
+	<file src="assets/images/speedo/icons/brake_icon.png" type="client" />
+	<file src="assets/images/speedo/icons/engine_icon.png" type="client" />
+	<file src="assets/images/speedo/icons/lights_icon.png" type="client" />
+	<file src="assets/images/speedo/icons/brake_icon_active.png" type="client" />
+	<file src="assets/images/speedo/icons/engine_icon_active.png" type="client" />
+	<file src="assets/images/speedo/icons/lights_icon_active.png" type="client" />
+
+    <file src="assets/sounds/error.mp3" type="client" />
+    <file src="assets/sounds/info.mp3" type="client" />
+    <file src="assets/sounds/success.mp3" type="client" />
+
+    <file src="assets/fx/mask.fx" type="client" />
+    <file src="assets/fx/matrix.fx" type="client" />
+
+    <!-- Eksporty -->
+    <export function="showNotification" type="client" />
+    <export function="showCustomNotification" type="client" />
+    <export function="getCustomNotificationId" type="client" />
+    <export function="deleteNotification" type="client" />
+    <export function="showHud" type="client" />
+    <export function="showNotification" type="server" />
+</meta>

@@ -1,0 +1,22 @@
+<meta>
+    <!--
+        Baza (podstawa)
+        @author: ansceniczny
+    -->
+
+    <!-- Skrypty -->
+    <script src="server/base.lua" type="server" />
+    <script src="server/id.lua" type="server" />
+    <script src="server/accounts.lua" type="server" />
+
+    <script src="client/_anim.luac" type="client" />
+    <script src="client/screen.luac" type="client" />
+    <script src="client/blips.luac" type="client" />
+    <script src="client/time_played.luac" type="client" />
+
+    <!-- Eksporty -->
+    <export function="switchScreen" type="client" />
+    <export function="findPlayer" type="server" />
+    <export function="registerAccount" type="server" />
+    <export function="logIntoAccount" type="server" />
+</meta>

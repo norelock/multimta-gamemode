@@ -1,0 +1,11 @@
+<meta>
+	<file src="assets/images/marker.png" type="client" />
+	<file src="assets/images/light.png" type="client" />
+	
+	<file src="assets/images/icons/get_car.png" type="client" />
+	<file src="assets/images/icons/store_car.png" type="client" />
+	<file src="assets/images/icons/station_lpg.png" type="client" />
+	
+	<script src="client/libs/material.luac" type="client" />
+	<script src="client/markers.luac" cache="false" type="client" />
+</meta>

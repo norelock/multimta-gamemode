@@ -1,0 +1,11 @@
+<meta>
+    <!--
+        Ustawienia pod serwer
+        @author: ansceniczny
+    -->
+
+    <script src="shared/settings.lua" type="shared" cache="false" />
+
+    <!-- Eksporty -->
+    <export function="getSettingValue" type="shared" />
+</meta>
