@@ -1,7 +1,3 @@
--- Author: Zbigniewqq
--- Rewritten by: ansceniczny
--- Graphic: ansceniczny
-
 local screen = Vector2(guiGetScreenSize());
 local zoom = 1920/screen.x;
 
